@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { RepeatComponent } from './repeat/repeat.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    RepeatComponent
   ],
   imports: [
     BrowserModule
