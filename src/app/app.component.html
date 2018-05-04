@@ -2,7 +2,8 @@ LISTA DE TITULOS:
 
 <ul>
   <li *ngFor="let item of posts">
-    <app-repeat [title]=item.title ></app-repeat>
+    <app-repeat [item]=item ></app-repeat>
+    <br>
   </li>
 </ul>
 

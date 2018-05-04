@@ -7,9 +7,12 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class RepeatComponent implements OnInit {
 
-  @Input() title: string;
+  @Input() item;
 
-  constructor() { }
+  constructor() { 
+    console.log(this.item);
+
+  }
 
   ngOnInit() {
   }
